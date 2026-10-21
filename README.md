@@ -1,11 +1,12 @@
 By Guy Zebrick. WD5ACP
 
-<img width="665" height="887" alt="AmpServeSmall" src="https://github.com/user-attachments/assets/e42e415d-528e-4ff8-97dc-4217771b4f35" />
+<img width="499" height="666" alt="AmpServeSmall" src="https://github.com/user-attachments/assets/afb31e46-4f9f-4e67-99df-ac6af666d604" />
 
 Program to add a webpage to the KPA500 amplifier plus local display of 4 parameters on color touchscreen
 The program was written for a CYD (Cheap Yellow Display) ESP32 microcomputer and programmed in C++
 using Visual Studio Code
 
+<img width="1236" height="719" alt="AmpServeWeb" src="https://github.com/user-attachments/assets/3d5fd2ea-2273-4de8-abe2-0cd927f64f35" />
 
 3D case if you want can be found here:
 https://www.tinkercad.com/things/hLtHflTGTa5-newcydvertcasev1
