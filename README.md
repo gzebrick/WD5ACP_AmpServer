@@ -12,6 +12,9 @@ using Visual Studio Code
 3D case if you want can be found here:
 https://www.tinkercad.com/things/hLtHflTGTa5-newcydvertcasev1
 
+<img width="1899" height="840" alt="AmpServser" src="https://github.com/user-attachments/assets/692f465b-61a3-4044-86ea-be60f940dd0b" />
+
+
 Requies seperate TLL<>RS232 adapter board for physical DB-9 connector to amplifier's PC RS232 port
 I used one of these from Amazon...
 5PCS MAX3232 RS232 to TTL Converter Module 3.3V-5V for Arduino MCU
