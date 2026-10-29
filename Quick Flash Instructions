@@ -1,0 +1,29 @@
+If you want to try to flash the binary files directly into a CYD without bothering with the Visual Studio programming tool, you can use the utility from Espressif to push them in directly over USB.
+
+1. Download the 3 binary files found in this folder. Put them someplace easy to find.
+
+2. Go to the Espressif website and selct the Flash Download Tool icon do download the utility
+https://docs.espressif.com/projects/esp-test-tools/en/latest/esp32/production_stage/tools/flash_download_tool.html
+
+3. Unzip the download, open the new extracted folder, and click on the flash_download_tool exe file. A window will open.
+
+4. change the  ChipType:  to " ESP32", and verify WorkMode is set to "Develop". LoadMode will be greyed out UART. Select "OK"
+
+5. A new window will open. In the SPIDownload the "..." box and point to the a binary file, Add all 3 and check the check box on the far left to indicate you want to download them.
+
+6. On the right of each file you need manually enter a memory offset. Be sure this is correct:
+bootloader " 0x1000 "
+firmware " 0x10000 "
+partitions " 0x8000"
+
+
+7. Plug  your CYD into a USB port
+
+8. At the bottom click on the down arrow for the COM entery and select you CYD com port.
+
+9. If you've lived a good life, always tried to do right by others, and are lucky, hit "START" and the program will download the binary files into your CYD. 
+There's a status window that shows the progress if you want to watch
+
+10. Reboot and enjoy!
+
+
